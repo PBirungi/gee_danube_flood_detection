@@ -8,13 +8,10 @@ Flood Analysis along the Danube River, Bavaria, Germany
 In June 2024, heavy rainfall caused significant flooding along the Danube River and its tributaries in Bavaria. To map the extent of the flood, this analysis combines Sentinel-2 optical imagery and Sentinel-1 SAR data. Optical images provide clear surface information where clouds are absent, while SAR detects water under cloud cover and complements the optical data.
 
 The workflow is implemented in Google Earth Engine, including:
-Preprocessing and cloud masking of Sentinel-2 imagery.
-Optical flood detection using MNDWI thresholds.
-SAR flood detection using ratio thresholding.
-Fusion of optical and SAR flood masks for the final extent.
-Refinement to remove permanent water and steep slopes.
+Preprocessing and cloud masking of Sentinel-2 imagery, Optical flood detection using MNDWI thresholds, SAR flood detection using ratio thresholding, Fusion of optical and SAR flood masks for the final extent and Refinement to remove permanent water and steep slopes.
 
 The main outputs include:
+
 Pre-flood Sentinel-2 composite (true color)
 Flood Sentinel-2 composite (true color)
 Optical flood mask
