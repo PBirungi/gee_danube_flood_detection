@@ -1,8 +1,6 @@
 # gee_danube_flood_detection
 Multi-sensor flood mapping for the June 2024 floods along the Danube River in Bavaria, Germany.
 
-Flood Analysis along the Danube River and its tributaries in Bavaria, Germany
-
 In June 2024, heavy rainfall caused significant flooding along the Danube River and its tributaries in Bavaria. To map the extent of the flood, this analysis combines Sentinel-2 optical imagery and Sentinel-1 SAR data. Optical images provide clear surface information where clouds are absent, while SAR detects water under cloud cover and complements the optical data.
 
 The workflow is implemented in Google Earth Engine, including:
