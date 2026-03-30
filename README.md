@@ -1,17 +1,20 @@
 # gee_danube_flood_detection
 Multi-sensor flood mapping for the June 2024 floods along the Danube River in Bavaria, Germany.
 
-In June 2024, heavy rainfall caused significant flooding along the Danube River and its tributaries in Bavaria. To map the extent of the flood, this analysis combines Sentinel-2 optical imagery and Sentinel-1 SAR data. Optical images provide clear surface information where clouds are absent, while SAR detects water under cloud cover and complements the optical data.
+In June 2024, heavy rainfall caused significant flooding along the Danube River and its tributaries in Bavaria. To map the extent of this event, a flood mapping workflow has been implemented in Google Earth Engine using Sentinel-2 (optical) and Sentinel-1 (SAR) data, leveraging the complementary strengths of both sensors.
 
-The workflow is implemented in Google Earth Engine, including:
-Preprocessing and cloud masking of Sentinel-2 imagery, Optical flood detection using MNDWI thresholds, SAR flood detection using ratio thresholding, Fusion of optical and SAR flood masks for the final extent and Refinement to remove permanent water and steep slopes.
+Results
 
-The main outputs include: Pre-flood Sentinel-2 composite (true color), Flood Sentinel-2 composite (true color), Optical flood mask, SAR flood mask (gap filler) and Final fused flood extent.
+The pre-flood Sentinel-2 composite established baseline conditions, while the flood-period composite highlighted inundated areas, though partially limited by cloud cover. The optical flood mask effectively delineated open water in cloud-free regions, whereas the SAR flood mask detected inundation in cloud-covered and vegetated areas, filling gaps in the optical data. These outputs were fused to produce the final flood extent, representing the most reliable estimate of inundation. Flood statistics were also computed for districts along the Danube and its tributaries to provide an administrative perspective of the impacts.
 
-The maps reveal the areas inundated during the flood. Due to the cloud cover limitations of optical data, the fused product provides a more complete and reliable estimate of the flooded area. Limitations include potential misclassification in urban areas and minor false positives in steep or shadowed terrain.
+Scripts
+Multisensor workflow (Optical + SAR):
+[Insert link]
+SAR-only analysis:
+[Insert link]
 
-Requirements to reproduce:
-Google Earth Engine account (JavaScript API)
-The provided script and AOI definition
+Conclusion
 
-This analysis provides a reproducible workflow for rapid flood mapping and can be extended to other river basins using multi-sensor data.
+This project demonstrates a robust and scalable approach to flood mapping using Google Earth Engine. By combining optical and SAR datasets, the workflow produces a reliable representation of flood extent under diverse environmental conditions. The methodology can be applied to other regions for flood monitoring, risk assessment, and disaster response.
+
+Author: Patience Birungi
