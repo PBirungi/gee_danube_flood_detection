@@ -8,7 +8,7 @@ Preprocessing and cloud masking of Sentinel-2 imagery, Optical flood detection u
 
 The main outputs include: Pre-flood Sentinel-2 composite (true color), Flood Sentinel-2 composite (true color), Optical flood mask, SAR flood mask (gap filler) and Final fused flood extent.
 
-The maps reveal the areas inundated during the flood. Due due the cloud cover limitations of optical data, the fused product provides a more complete and reliable estimate of the flooded area. Limitations include potential misclassification in urban areas and minor false positives in steep or shadowed terrain.
+The maps reveal the areas inundated during the flood. Due to the cloud cover limitations of optical data, the fused product provides a more complete and reliable estimate of the flooded area. Limitations include potential misclassification in urban areas and minor false positives in steep or shadowed terrain.
 
 Requirements to reproduce:
 Google Earth Engine account (JavaScript API)
