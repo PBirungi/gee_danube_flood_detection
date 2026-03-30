@@ -7,11 +7,6 @@ Results
 
 The pre-flood Sentinel-2 composite established baseline conditions, while the flood-period composite highlighted inundated areas, though partially limited by cloud cover. The optical flood mask effectively delineated open water in cloud-free regions, whereas the SAR flood mask detected inundation in cloud-covered and vegetated areas, filling gaps in the optical data. These outputs were fused to produce the final flood extent, representing the most reliable estimate of inundation. Flood statistics were also computed for districts along the Danube and its tributaries to provide an administrative perspective of the impacts.
 
-Scripts
-Multisensor workflow (Optical + SAR):
-[Insert link]
-SAR-only analysis:
-[Insert link]
 
 Conclusion
 
