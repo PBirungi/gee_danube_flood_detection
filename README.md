@@ -10,15 +10,9 @@ In June 2024, heavy rainfall caused significant flooding along the Danube River 
 The workflow is implemented in Google Earth Engine, including:
 Preprocessing and cloud masking of Sentinel-2 imagery, Optical flood detection using MNDWI thresholds, SAR flood detection using ratio thresholding, Fusion of optical and SAR flood masks for the final extent and Refinement to remove permanent water and steep slopes.
 
-The main outputs include:
+The main outputs include: Pre-flood Sentinel-2 composite (true color), Flood Sentinel-2 composite (true color), Optical flood mask, SAR flood mask (gap filler) and Final fused flood extent.
 
-Pre-flood Sentinel-2 composite (true color)
-Flood Sentinel-2 composite (true color)
-Optical flood mask
-SAR flood mask (gap filler)
-Final fused flood extent
-
-The maps reveal the areas inundated during the flood, and the fused product provides a more complete and reliable estimate than using optical data alone. Limitations include potential misclassification in urban areas and minor false positives in steep or shadowed terrain.
+The maps reveal the areas inundated during the flood. Due due the cloud cover limitations of optical data, the fused product provides a more complete and reliable estimate of the flooded area. Limitations include potential misclassification in urban areas and minor false positives in steep or shadowed terrain.
 
 Requirements to reproduce:
 Google Earth Engine account (JavaScript API)
