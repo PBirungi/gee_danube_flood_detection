@@ -21,7 +21,7 @@ var floodEnd = '2024-06-15';
 function maskS2(image) {
   var scl = image.select('SCL');
   return image.updateMask(scl.neq(9).and(scl.neq(10)));
-};
+}
 
 var s2Col = ee.ImageCollection("COPERNICUS/S2_SR_HARMONIZED").filterBounds(aoi).map(maskS2);
 var preS2 = s2Col.filterDate(preStart, preEnd).median().clip(aoi);
