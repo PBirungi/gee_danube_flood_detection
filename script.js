@@ -1,6 +1,15 @@
 //Load study area
-var aoi = geometry; 
+var aoi = ee.Geometry.Polygon([
+  [
+    [9.98, 48.29],
+    [13.30, 48.29],
+    [13.30, 49.05],
+    [9.98, 49.05],
+    [9.98, 48.29]
+  ]
+]);
 Map.centerObject(aoi, 9);
+Map.addLayer(aoi, {color:red}, 'AOI'};
 
 //Define period of study
 var preStart = '2024-04-01'; 
@@ -12,7 +21,8 @@ var floodEnd = '2024-06-15';
 function maskS2(image) {
   var scl = image.select('SCL');
   return image.updateMask(scl.neq(9).and(scl.neq(10)));
-}
+};
+
 var s2Col = ee.ImageCollection("COPERNICUS/S2_SR_HARMONIZED").filterBounds(aoi).map(maskS2);
 var preS2 = s2Col.filterDate(preStart, preEnd).median().clip(aoi);
 var floodS2 = s2Col.filterDate(floodStart, floodEnd).median().clip(aoi);
