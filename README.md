@@ -1,5 +1,5 @@
 # gee_danube_flood_detection
-Multi-sensor flood mapping using Sentinel-1 SAR and Sentinel-2 optical data for the June 2024 floods in Bavaria, Germany.
+Multi-sensor flood mapping for the June 2024 floods along the Danube River in Bavaria, Germany.
 
 Flood Analysis along the Danube River and its tributaries in Bavaria, Germany
 
