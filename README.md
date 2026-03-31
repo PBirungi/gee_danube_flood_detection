@@ -7,7 +7,7 @@ In June 2024, heavy rainfall caused significant flooding along the Danube River 
 
 ## Final Flood Extent Map
 
-![Danube Flood Extent Map](figures/final_flood_map.png)
+![Danube Flood Extent Map](final_flood_map.png)
 
 *Figure: Final fused flood extent along the Danube River in Bavaria, June 2024.*
 
@@ -15,7 +15,7 @@ In June 2024, heavy rainfall caused significant flooding along the Danube River 
 
 ## Results
 
-The pre-flood Sentinel-2 composite established baseline conditions, while the flood-period composite highlighted inundated areas, though partially limited by cloud cover. The optical flood mask effectively delineated open water in cloud-free regions, whereas the SAR flood mask detected inundation in cloud-covered and vegetated areas, filling gaps in the optical data. These outputs were fused to produce the final flood extent, representing the most reliable estimate of inundation. Flood statistics were also computed for districts along the Danube and its tributaries to provide an administrative perspective of the impacts.
+The pre-flood Sentinel-2 composite established baseline conditions, while the flood-period composite highlighted inundated areas, though partially limited by cloud cover. The optical flood mask effectively delineated open water in cloud-free regions, whereas the SAR flood mask detected inundation in cloud-covered and vegetated areas, filling gaps in the optical data. These outputs were fused to produce the final flood extent, representing the most reliable estimate of inundation as shown in the figure above. Flood statistics were also computed for districts along the Danube and its tributaries to provide an administrative perspective of the impacts.
 
 ---
 
