@@ -7,7 +7,7 @@ In June 2024, heavy rainfall caused significant flooding along the Danube River 
 
 ## Final Flood Extent Map
 
-![Danube Flood Extent Map](final_flood_map.png)
+![Danube Flood Extent Map](final_flood_map.jpg)
 
 *Figure: Final fused flood extent along the Danube River in Bavaria, June 2024.*
 
