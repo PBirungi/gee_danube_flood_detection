@@ -10,14 +10,16 @@ The workflow consists of:
 
 - Preprocessing and cloud masking of Sentinel-2 imagery  
 - Optical flood detection using MNDWI thresholding  
-- SAR flood detection using automated thresholding  
+- SAR flood detection using thresholding  
 - Fusion of optical and SAR flood masks  
 - Refinement using slope and permanent water masks  
 
 
 ## Results
 
-The pre-flood Sentinel-2 composite established baseline conditions, while the flood-period composite highlighted inundated areas, though partially limited by cloud cover. The optical flood mask effectively delineated open water in cloud-free regions, whereas the SAR flood mask detected inundation in cloud-covered and vegetated areas, filling gaps in the optical data. These outputs were fused to produce the final flood extent, representing the most reliable estimate of inundation. Flood statistics were also computed for districts along the Danube and its tributaries to provide an administrative perspective of the impacts.
+The pre-flood Sentinel-2 composite established baseline conditions, while the flood-period composite highlighted inundated areas, though partially limited by cloud cover. The optical flood mask effectively delineated open water in cloud-free regions, whereas the SAR flood mask detected inundation in cloud-covered and vegetated areas, filling gaps in the optical data. These outputs were fused to produce the final flood extent, representing the most reliable estimate of inundation. Flood statistics were also computed for districts along the Danube and its tributaries to provide an administrative perspective of the impacts. 
+
+The flooded areas were predominantly clustered along river networks and low-lying zones, which is consistent with expected hydrological behavior.
 
 <p align="center">
   <img src="final_flood_map.jpg" width="600"/>
